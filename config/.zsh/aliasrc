@@ -1,0 +1,54 @@
+
+export EDITOR=nvim
+###################
+#ALIASES
+###################
+#alias sudo="doas"
+alias vim="nvim"
+alias vi="nvim"
+alias zshrc='vim ~/.zshrc' # Quick access to the ~/.zshrc file
+alias mn="sh ~/.scripts/cheatsh"
+alias mans="sh ~/.scripts/mansplain "
+alias unix="sh ~/.scripts/unix"
+#alias mno="mpv --no-video"
+alias mpv="mpv "
+#alias yayr="sh ~/.scripts/auryay.sh"
+alias yclass="sh ~/.scripts/class_music.sh"
+alias classy="sh ~/.scripts/classy_music.sh"
+alias yhip="sh ~/.scripts/hip_mus.sh"
+alias hoppy="sh ~/.scripts/hopit.sh"
+alias nb="newsboat -r"
+alias ysynth="sh ~/.scripts/Synth_mus.sh"
+alias ufetch="sh ~/.scripts/ufetch"
+alias flutter="sh ~/gitworks/flutter/bin/flutter"
+alias wmw="curl https://wttr.in/malappuram"
+alias imv="imv-wayland"
+alias uptodate="sudo apt update && sudo apt upgrade"
+alias waldl="sh /home/sanal/.scripts/waldl"
+alias sourcez="source /home/sanal/.zshrc"
+alias hss="hugo server --noHTTPCache"
+alias turnoff="sudo shutdown now"
+alias edalias="vim /home/sanal/.config/.zsh/aliasrc"
+alias redyt="sh /home/sanal/.scripts/redyt"
+alias inivim="vim /home/sanal/.config/nvim/init.vim"
+alias aliasrc="vim /home/sanal/.config/.zsh/aliasrc"
+alias rmrf="rm -rf"
+alias powerdown="systemctl poweroff"
+alias ytfzf="sh /home/sanal/gitworks/ytfzf/ytfzf"
+alias nbadd="echo $1 $2 >> /home/sanal/.config/newsboat/urls"
+#####################
+#GIT
+#####################
+alias gp="git push"
+alias ga="git add"
+alias gc="git commit -m "$1""
+alias sstart="eval "$(ssh-agent -s)""
+
+
+
+
+
+
+
+
+
